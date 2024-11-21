@@ -16,5 +16,11 @@ namespace SISTEMAS_GESTION
         {
             InitializeComponent();
         }
+
+        private void btnSubRubro_Click(object sender, EventArgs e)
+        {
+            frmSubRubro ventanaSubRubro = new frmSubRubro();
+            ventanaSubRubro.ShowDialog();
+        }
     }
 }
