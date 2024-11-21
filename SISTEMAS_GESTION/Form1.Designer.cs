@@ -37,7 +37,7 @@
             this.btnSubRubro.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnSubRubro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSubRubro.BackgroundImage")));
             this.btnSubRubro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnSubRubro.Location = new System.Drawing.Point(39, 36);
+            this.btnSubRubro.Location = new System.Drawing.Point(46, 45);
             this.btnSubRubro.Name = "btnSubRubro";
             this.btnSubRubro.Size = new System.Drawing.Size(98, 95);
             this.btnSubRubro.TabIndex = 0;
@@ -51,6 +51,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1336, 703);
             this.Controls.Add(this.btnSubRubro);
             this.Name = "Form1";
