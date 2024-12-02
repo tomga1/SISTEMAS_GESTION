@@ -22,5 +22,11 @@ namespace SISTEMAS_GESTION
             frmSubRubro ventanaSubRubro = new frmSubRubro();
             ventanaSubRubro.ShowDialog();
         }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            frmProveedores ventanaProveedores = new frmProveedores();
+            ventanaProveedores.ShowDialog();
+        }
     }
 }

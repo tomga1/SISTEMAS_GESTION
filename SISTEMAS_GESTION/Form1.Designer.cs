@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnSubRubro = new System.Windows.Forms.Button();
+            this.btnProveedores = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSubRubro
@@ -46,6 +47,20 @@
             this.btnSubRubro.UseVisualStyleBackColor = false;
             this.btnSubRubro.Click += new System.EventHandler(this.btnSubRubro_Click);
             // 
+            // btnProveedores
+            // 
+            this.btnProveedores.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnProveedores.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnProveedores.BackgroundImage")));
+            this.btnProveedores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnProveedores.Location = new System.Drawing.Point(204, 45);
+            this.btnProveedores.Name = "btnProveedores";
+            this.btnProveedores.Size = new System.Drawing.Size(98, 95);
+            this.btnProveedores.TabIndex = 1;
+            this.btnProveedores.Text = "Proveedores";
+            this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnProveedores.UseVisualStyleBackColor = false;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -54,10 +69,11 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1336, 703);
+            this.Controls.Add(this.btnProveedores);
             this.Controls.Add(this.btnSubRubro);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SISTEMAS";
+            this.Text = "io";
             this.ResumeLayout(false);
 
         }
@@ -65,6 +81,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnSubRubro;
+        private System.Windows.Forms.Button btnProveedores;
     }
 }
 
